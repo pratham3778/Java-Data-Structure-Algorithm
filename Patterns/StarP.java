@@ -1,7 +1,6 @@
 public class starP {
     public static void main(String[] args) {
         //ADDING A STAR IN NEXT ROW
-        //OUTPUT: 
         // *
         // **
         // ***
