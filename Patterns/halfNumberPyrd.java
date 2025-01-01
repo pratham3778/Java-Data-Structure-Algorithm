@@ -1,4 +1,4 @@
-public class HalfNumberPyrd {
+public class halfNumberPyrd {
     public static void main(String[] args) {
       //OUTPUT
       // 1
