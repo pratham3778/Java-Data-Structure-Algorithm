@@ -1,6 +1,6 @@
 /* Example 1:
 Input: nums = [3,2,1,5,6,4], k = 2
-Output: 5 */
+Output: 6 */
  
 public class largestElement {
   public static int large(int[] nums, int k) {
