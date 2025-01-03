@@ -1,6 +1,6 @@
-/* Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]. */
+/* Input: nums = [2,6,5,8,11], target = 14
+Output: [1,3]
+Explanation: Because nums[1] + nums[3] == 14, we return [1, 3]. */
 
 package Arrays;
 import java.util.*;
