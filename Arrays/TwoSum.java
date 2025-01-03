@@ -17,7 +17,7 @@ class TwoSum {
         }
         return new int[]{-1,-1}; */
 
-      /* OPTIMIZED */
+      /* OPTIMIZED USING HASHING METHOD*/
       HashMap<Integer, Integer> map = new HashMap<>();
       
         for(int i=0;i<arr.length;i++) {
