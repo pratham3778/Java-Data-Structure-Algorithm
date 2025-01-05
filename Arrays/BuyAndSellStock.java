@@ -19,3 +19,9 @@ public static int maxProfit(int[] prices) {
         System.out.println(result);
     }
 }
+
+
+// Time Complexity: 𝑂(𝑛)
+// O(n) — Single loop through the array.
+// Space Complexity: 𝑂(1)
+// O(1) — No extra space used.
