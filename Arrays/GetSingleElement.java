@@ -6,12 +6,13 @@ public class GetSingleElement {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
             int num = arr[i];
-            int cnt = 0;
+            int count = 0;
             for (int j = 0; j < n; j++) {
-                if (arr[j] == num)
-                    cnt++;
+                if (arr[j] == num) {
+                    count++;
+                }
             }
-            if (cnt == 1) { 
+            if (count == 1) { 
               return num;
               }
         }
@@ -21,7 +22,7 @@ public class GetSingleElement {
     public static void main(String args[]) {
         int[] arr = {4, 1, 2, 1, 2};
         int ans = getSingle(arr);
-        System.out.println("The single element is: " + ans);
+        System.out.println(ans);
 
     }
 }
