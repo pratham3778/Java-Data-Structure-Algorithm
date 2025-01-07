@@ -1,8 +1,8 @@
+package Arrays;
 /* Example :
 Input: arr[] = [12, 35, 1, 10, 34, 1]
 Output: 34
 */
-
 public class secondLarge {
   public static int getSecond(int[] arr) {
     int n = arr.length;
