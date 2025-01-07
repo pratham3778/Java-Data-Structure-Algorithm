@@ -2,7 +2,7 @@ package Arrays;
 import java.util.*;
 
 public class GetSingleElement {
-    public static int getSingle(int []arr) {
+    /* public static int getSingle(int []arr) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
             int num = arr[i];
@@ -17,11 +17,20 @@ public class GetSingleElement {
               }
         }
         return -1;
+    } */
+    public static int singleNumber(int[] arr) {
+        int unique = 0;
+
+        for(int i=0;i<arr.length;i++) {
+            unique ^= arr[i];
+        }
+        return unique;
     }
 
     public static void main(String args[]) {
         int[] arr = {4, 1, 2, 1, 2};
-        int ans = getSingle(arr);
+        //int ans = getSingle(arr);
+        int ans = singleNumber(arr);
         System.out.println(ans);
 
     }
