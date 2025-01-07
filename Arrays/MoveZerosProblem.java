@@ -1,3 +1,4 @@
+package Arrays;
 public class MoveZerosProblem {
     public void moveZeroes(int[] nums) {
         // TWO POINTER APPROACH
