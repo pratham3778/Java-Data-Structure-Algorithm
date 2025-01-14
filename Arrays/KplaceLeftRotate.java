@@ -1,7 +1,7 @@
 package Arrays;
 
 public class KplaceLeftRotate {
-    public static void reverse(int[] nums, int start, int end) {
+    public static void reverse(int[] nums, int start, int end) { 
         while(start <= end) {
             int temp = nums[start];
             nums[start] = nums[end];
