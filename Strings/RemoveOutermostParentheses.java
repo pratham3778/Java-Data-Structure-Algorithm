@@ -20,9 +20,9 @@ public class RemoveOutermostParentheses {
     }
 
     public static void main(String[] args) {
-        RemoveOutermostParentheses solution = new RemoveOutermostParentheses();
+        RemoveOutermostParentheses s = new RemoveOutermostParentheses();
         String input = "(()())(())";
-        String result = solution.removeOuterParentheses(input);
+        String result = s.removeOuterParentheses(input);
         System.out.println("Input: " + input);
         System.out.println("Output: " + result);
     }
