@@ -1,6 +1,6 @@
 package Strings;
 
-public class LargestOddNumber { 
+public class LargestOddNumber {  
     public String largestOddNumber(String num) {
         int len = num.length() - 1;  // Step 1: Get the last index of the string
 
