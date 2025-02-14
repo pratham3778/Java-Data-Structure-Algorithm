@@ -3,7 +3,7 @@ package Strings;
 public class PalindromeCheck {
     public boolean isPalindrome(int x) {
         if(x < 0) {
-            return false;
+            return false; 
         }
 
         int temp = x;
