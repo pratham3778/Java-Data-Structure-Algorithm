@@ -1,6 +1,6 @@
 package CoreJava;
 
-@FunctionalInterface
+@FunctionalInterface 
 interface LambdaExptest {
     //by default interface methods are abstarct
     //you can write public abstract void m1(); OR 
