@@ -2,7 +2,7 @@ package CoreJava;
 
 // Interface Ram with a default method
 interface Ram { 
-    default void fun() {
+    default void fun() { 
         System.out.println("Ram's fun()");
     }
 }
