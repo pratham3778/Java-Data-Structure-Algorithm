@@ -4,7 +4,7 @@ package CoreJava;
 interface LambdaExptest {
     //by default interface methods are abstarct
     //you can write public abstract void m1(); OR 
-    //eg1 :- 
+    //eg1 :-  
     //void m1();
 
     //eg2 :-
