@@ -5,7 +5,7 @@ package CoreJava;
 
 class numTest extends Thread {
     @Override
-    public void run() {
+    public void run() { 
         for(int i=1;i<=10;i++) {
             try {
                 Thread.sleep(1000);
