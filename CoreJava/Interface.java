@@ -6,7 +6,7 @@ interface Ram {
         System.out.println("Ram's fun()");
     }
 }
-
+ 
 // Interface Sham with a default method
 interface Sham {
     default void fun() {
