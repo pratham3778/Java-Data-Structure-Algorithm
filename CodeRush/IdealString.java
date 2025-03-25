@@ -17,6 +17,6 @@ public class IdealString {
     }
     public static void main(String[] args) {
         String input = "XYXXYXXY";
-        System.out.println("Output: " + minRemoval(input));
+        System.out.println("Minimum Removals: " + minRemoval(input));
     }
 }
