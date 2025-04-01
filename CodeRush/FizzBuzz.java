@@ -1,6 +1,6 @@
 package CodeRush;
 
-import java.util.*;
+import java.util.*; 
 
 public class FizzBuzz {
     public List<String> fizzBuzz(int n) {
