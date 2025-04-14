@@ -1,0 +1,14 @@
+// When two or more threads want to modifying the same value while other threads reading the vlaue. It can produce unexcepted results
+
+// to solve this we can allow only one thread to modify or access the resource.
+
+// Synchronization is a mechanism that ensures that only one thread can work on the particular task once it completes then other thread can have the access for those task.
+
+// Since there is only one lock per object, if one thread has picked up the lock, other thread have to wait until the first thread released the lock.
+
+// To make the task as synchronized we can use synchronized keyword
+
+// we can use synchronized keyword with methods or blocks
+
+// Q. Can static methods be synchronized?
+// -> Yes, static method can be synchronized. It uses class level.

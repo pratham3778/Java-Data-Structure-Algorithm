@@ -1,0 +1,35 @@
+// PROCESS : a process is running program
+// it is self contained execution env and has its own memory space
+// processes are independent of each other
+// processes are heavyweight
+
+// THREAD : A thread is a smallest set of task which can work seprately
+// Thread share the same memory space within a process but can execute code independently
+// threads are lightweight
+// threads are subpart of process
+
+// CREATING A THREAD 
+(1) By Extending Thread Class
+(2) By Implementing Runnable Interface
+
+// MULTI-THREADING allows a program to run multiple times simultaneously , enhancing performance and reducing response time of system
+// Eg : in a restuarent kitchen multiple chefs prepare different dishes at a same time
+// Multiprocessing and multithreading can be used to achieve multitasking
+
+
+// Q. Why start() method , can we call directly run() mehtod ?
+// -> when we use start() the thread sceduler register it as a thread and perform necessary steps before call run method , it has its own lifecycle and call stack
+// run() will behave as normal method
+
+// Q. Can we overload Run() mehtod?
+// -> Yes, no such use
+// Q. Override Stack ?
+// -> Yes, it will behvae as normal method
+
+// Q. Can we start same Thread twice ?
+// -> No, we start one thread if we start again it will thorw exception (IllegalThreadStateException)
+
+// Q. Good Approch ?
+// -> if we try extend java does not supprt multiple inheritance, we can extend only one class, not possible to extend one more class
+// when we implement runnable we have a chance to extend clss is needed
+// RUNNABLE IS GOOD APPROCH
