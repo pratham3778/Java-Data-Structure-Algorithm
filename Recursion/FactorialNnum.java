@@ -11,7 +11,7 @@ public class FactorialNnum {
             fact *= i;
         }
         return fact;
-    }
+    } 
 
     public static int facto(int n) {
         if (n == 0) {
