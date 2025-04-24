@@ -1,0 +1,10 @@
+The final keyword is used to create constants and restrict inheritance or modification.
+
+(1) Final Variable - Value cannot be changed once assigned.
+Acts like a constant.
+
+(2) Final Method - Cannot be overridden by subclasses.
+Useful when you want to prevent behavior changes.
+
+(3)  Final Class - Cannot be subclassed (inherited).
+Used for security and immutability (e.g., String class).
