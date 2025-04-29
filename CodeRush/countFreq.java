@@ -1,6 +1,6 @@
 package CodeRush;
 // Question :-
-// Counting frequencies of array elements
+// Counting frequencies of array elements 
 // Generate an array which may contain duplicates, print all elements and their frequencies
 // Input : arr[]={11,25,25,11,25,5,25}
 // Output : 11-3, 25-4, 5-1
