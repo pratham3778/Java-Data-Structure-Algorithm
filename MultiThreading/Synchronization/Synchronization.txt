@@ -4,7 +4,7 @@
 
 // Synchronization is a mechanism that ensures that only one thread can work on the particular task once it completes then other thread can have the access for those task.
 
-// Since there is only one lock per object, if one thread has picked up the lock, other thread have to wait until the first thread released the lock.
+// Since there is only one lock per object, if one thread has picked up the lock, other thread have to wait until the first thread released the lock. 
 
 // To make the task as synchronized we can use synchronized keyword
 
