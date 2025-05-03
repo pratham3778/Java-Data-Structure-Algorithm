@@ -8,7 +8,7 @@ public class Sync {
         });
 
         Thread t2 = new Thread(() -> {
-            obj.greet("World");
+            obj.greet("World"); 
         });
 
 
