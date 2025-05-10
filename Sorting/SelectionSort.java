@@ -1,5 +1,7 @@
 package Sorting;
 
+// pick the smallest (from unsorted) put it at the begining , take a min posi
+// tc : 0(n^2)
 public class SelectionSort {
     public static void sele(int[] arr) {
         // Loop through the array
