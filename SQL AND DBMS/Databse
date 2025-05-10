@@ -1,0 +1,5 @@
+DATABASE is software that stored data in an organized form using DATABASE MGMT SYSTEM.
+DATA is stored in tables in Realtional DATABASE
+DATA is not stored in tables in NON-RELATIONAL DATABASE
+MANAGED USING SOFTWARE LIKE MYSQL, POSTGRESQL, ORACLE, etc
+Ensures data integrity, security, concurrent access(multiple users can modify or access database at same time)

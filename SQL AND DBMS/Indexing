@@ -1,0 +1,14 @@
+Indexing is a database technique used to speed up the retrieval of data from a table
+
+To reduce disk I/O by allowing faster data lookup.
+
+TYPES :
+
+(1) Clustered Indexing - here multiple records are stored together in the same file. 
+
+(2) Primary indexing - the data is sorted according to the search key and the primary key of the database table is used to create the index.
+
+(3) Secondary indexing - tells us where the data lies
+
+(4) Multilevel indexing - segregates the main block into various smaller blocks to be stored in a single block.
+

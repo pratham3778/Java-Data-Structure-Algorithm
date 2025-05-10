@@ -1,0 +1,3 @@
+Trigger are stored procedures that automatically executes in response to a certain event on table in database
+they can fire on event like : INSERT , UPDATE , DELETE
+and can be triggered BEFORE and AFTER the operation happen

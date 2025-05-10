@@ -1,0 +1,12 @@
+SQL - STRUCTURED QUERY LANGUAGE
+
+SQL is a domian specific language used to interact with realtional database
+it is used to perform CRUD Operations 
+
+TYPES OF SQL LANGUAGE are :-
+
+- DDL(Data Defination Language) - CREATE , ALTER , DROP , TRUNCATE
+- DML(Data Manipulation Language) - INSERT, UPDATE, DELETE
+- DQL(Data Query Language) - SELECT
+- DCL(Data Control Language) - GRANT , REVOKE
+- TCL(Transaction Control Language) - COMMIT, ROLLBACK, SAVEPOINT

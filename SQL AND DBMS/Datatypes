@@ -1,0 +1,15 @@
+DATATYPES: 
+
+CHAR - stores character of fixed length [ Ranges from 0-285 character ]
+VARCHAR - stores character upto given length (better to use than char) [Ranges from 0 to 299 bytes]
+BLOB - stores binary large objects [upto 0 - 65,535 bytes]
+INT - standard integer [ ranges from -2,147,483,648 to 2,147,483,647] 
+TINYINT
+BIGINT
+BIT - can store x bit values [ Ranges from 1 to 64 bits ]
+FLOAT 
+DOUBLE
+BOOLEAN - boolean values with 0 or 1, TRUE or FALSE
+DATE - stores calnedar date(YYYY-DD-MM)
+TIME - stores time(HH:MM:SS) 
+YEAR - stores year in 4 digit format

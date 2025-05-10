@@ -1,0 +1,18 @@
+DELETE 
+- DML command
+- Removes a specific rew from the table
+- can use WHERE clause
+- can be rollback
+
+
+DROP 
+- DDL command
+- deletes the entire table
+- cannot be rollback
+
+TRUNCATE 
+- DDL command
+- delete all rows from table without removing the table structure
+- Cannot use WHERE clause
+- cannot be rollback
+- faster than delete

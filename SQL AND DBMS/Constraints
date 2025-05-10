@@ -1,0 +1,10 @@
+CONSTRAINTS : are rules appiled to column in database
+Types :
+
+
+(1) UNIQUE - Ensure all values in column are different
+(2) NOT NULL -  Ensure a column cannot have null values
+(3) PRIMARY KEY - Uniquely identifies each row in table, combines NOT NULL and UNIQUE
+(4) FOREIGN KEY - Maintains referential integrity between tables
+(5) CHECK - Restrict values with a specific condition
+(6) DEFAULT - sets a default value for a column 

@@ -1,0 +1,23 @@
+(1) LIMIT - restricts num of rows retured in a result set
+
+(2) OFFSET - specifies the num of rows to skip before starting to return rows (kuthna chalu karych)
+
+(3) ORDER BY - sort the result set by one or more columns , by default in Ascending(ASC) order, DESC for descending order
+
+(4) DISTINCT - returns only unique values, removes duplicate rows from result set
+
+(5) WHERE - used to filter rows based on specific condition
+
+(6) Logical Operator - used to combine multiple condition in WHERE clause
+- These operators include AND, OR, NOT, BETWEEN, IN, LIKE
+
+(7) GROUP BY - used to arrange identical data into groups, used with aggregate func
+
+(8) HAVING - used to filter groups rather than individual rows , used with aggregate func
+
+(9) WHERE                             vs            HAVING 
+    filter rows(before grouping )            filter groups(after grouping)
+    aggregate func (Not allowed)             allowed
+    used with Logical operator               used with GROUP BY
+    execution : before GROUP BY              After GROUP BY
+

@@ -1,0 +1,11 @@
+A JOIN Clause is used to combines rows from two or more tables, based on related column between them
+
+TYPES: 
+
+(1) INNER JOIN : return record that have matching values in both tables
+
+(2) LEFT JOIN : return all records from left table and the matched records from right table
+
+(3) RIGHT JOIN : return all records from right table and matched records from left table
+
+(4) FULL JOIN : returns all record when there is match in either left or right table

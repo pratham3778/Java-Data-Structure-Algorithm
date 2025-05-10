@@ -1,0 +1,7 @@
+Aggregate Function are used to perform calculations, used with GROUP BY clause to group rows 
+
+COUNT()	- Returns the number of rows in a set.
+SUM()	- Returns the sum of a numeric column.
+AVG()	- Returns the average value of a numeric column.
+MIN()	- Returns the smallest value in a set.
+MAX()	- Returns the largest value in a set.

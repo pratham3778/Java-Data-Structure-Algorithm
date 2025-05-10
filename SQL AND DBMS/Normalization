@@ -1,0 +1,7 @@
+Normalization is the process of organizing the data in a relational database to reduce redundancy and improve integrity
+Each level of normalization is called NORMAL form
+
+First NF - remove duplicate and multi-valued attributes.
+SECOND NF - remove partial dependencies.
+THRID NF - remove transitive dependencies.
+BOYCE CODD NF - to optimize data integrity.

@@ -1,0 +1,11 @@
+UNION : combines the results from two queries but removes duplicates
+
+SELECT name FROM emp1
+UNION 
+SELECT name FROM emp2;
+
+UNION ALL : combines results without removing duplicates
+
+SELECT name FROM emp1
+UNION ALL
+SELECT name FROM emp2;
