@@ -1,5 +1,8 @@
 package Sorting;
 
+// push the max elelmnt to last by adjacent swaps
+// tc: 0(n^2)
+
 public class BubbleSort {
     static void bubble(int[] arr) {
         for(int i=arr.length-1;i>=1;i--){
