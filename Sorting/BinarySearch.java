@@ -1,12 +1,12 @@
 package Sorting;
 
-// This is a binary search on a sorted array. First, I check if the array is null or empty. 
-// Then I set two pointers — left at 0 and right at the last index. 
-// I run a loop while left <= right, calculate mid, and check if arr[mid] is equal to the key — that’s my base case.
-// If the key is smaller, I search the left half by setting right = mid - 1. 
-// If it's bigger, I search the right half by setting left = mid + 1. 
-// If I don't find the key, I return -1. 
-// Time complexity is O(log n).
+// check if the array is null or empty. 
+// set two pointers — left at 0 and right at the last index. 
+// run a loop while left <= right, calculate mid, and check if arr[mid] is equal to the key
+// If the key is smaller, search the left half by setting right = mid - 1. 
+// If it's bigger, search the right half by setting left = mid + 1. 
+// If I don't find the key, return -1. 
+// Tc: O(log n).
 
 public class BinarySearch {
     public static int bs(int[] arr, int key) {
