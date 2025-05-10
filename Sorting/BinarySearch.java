@@ -42,5 +42,3 @@ public class BinarySearch {
     
 }
 
-
-// TC : 0(log n)
