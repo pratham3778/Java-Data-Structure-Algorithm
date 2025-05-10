@@ -8,3 +8,6 @@ Useful when you want to prevent behavior changes.
 
 (3)  Final Class - Cannot be subclassed (inherited).
 Used for security and immutability (e.g., String class).
+
+(4) Finally block - a block in exception handling that always exceutes
+
