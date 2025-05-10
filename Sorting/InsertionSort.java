@@ -1,5 +1,8 @@
 package Sorting;
 
+//pick a element (from unsorted) put it at right position in sorted array
+// tc: 0(n^2)
+
 public class InsertionSort {
     static void insert(int[] arr) {
         for(int i = 0;i<=arr.length-1;i++) {
