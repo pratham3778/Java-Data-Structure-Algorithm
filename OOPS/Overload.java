@@ -1,5 +1,6 @@
 // The term "polymorphism" means "many forms". In Java, it allows objects to behave in different ways depending on their context or data type.
-//eg: You want to allow users to pay using different methods: Credit Card, Debit Card, UPI, etc.
+// eg: You want to allow users to pay using different methods: Credit Card, Debit Card, UPI, etc.
+// types : Compile-Time Polymorphism , Run-Time Polymorphism
 
 
 
