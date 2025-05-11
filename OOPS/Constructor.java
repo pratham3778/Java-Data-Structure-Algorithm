@@ -1,5 +1,6 @@
 // Constructor is a special method called when an object is created to initialize it.
 // it has same name as the class, does not have a return type
+// constructor can be private - used to restrict object creation from outside the class
 // eg : when you move to a new appartment - you can set up your furniture and appliances
 
 //types: 
