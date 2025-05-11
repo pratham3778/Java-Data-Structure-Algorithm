@@ -1,3 +1,8 @@
+// The term "polymorphism" means "many forms". In Java, it allows objects to behave in different ways depending on their context or data type.
+//eg: You want to allow users to pay using different methods: Credit Card, Debit Card, UPI, etc.
+
+
+
 // Method overloading : defining multiple mehtods in the same class with same name but different parameters
 // method overloading is also called compile time polymorphism - call gets resolved at complie time
 // eg : imagine a smart door - the door can be opened using key, a password , or fingerprint
