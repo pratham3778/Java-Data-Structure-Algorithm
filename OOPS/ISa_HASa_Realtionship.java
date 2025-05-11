@@ -1,8 +1,7 @@
-/*Aspect	           IS-A Relationship	              HAS-A Relationship
-Type	             - Inheritance	                  - Composition / Aggregation
-Represents	       - "Is a type of"	                - "Has a part of"
-Code Example	     - class B extends A	            - class A { B b; }
-Tight Coupling	   - Yes (more tightly coupled)	    - No (more flexible and modular)*/
+/*Aspect	           IS-A Relationship	                                   HAS-A Relationship
+Type	             - Inheritance	                                            - Composition / Aggregation
+Represents	         - "Is a type of"	                                        - "Has a part of"
+Defination           - a child class inherits from parent class(using extends)  - directly access without extend keywor we craete object of that class*/ 
 
 
 
