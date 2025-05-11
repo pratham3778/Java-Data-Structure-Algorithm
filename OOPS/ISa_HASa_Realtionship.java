@@ -1,7 +1,8 @@
 /*Aspect	           IS-A Relationship	                                   HAS-A Relationship
 Type	             - Inheritance	                                            - Composition / Aggregation
 Represents	         - "Is a type of"	                                        - "Has a part of"
-Defination           - a child class inherits from parent class(using extends)  - directly access without extend keywor we craete object of that class*/ 
+Defination           - a child class inherits from parent class(using extends)  - directly access without extend keywor we craete object of that class
+Example              - A Dog is a Animal                                        - A car has a Engine*/ 
 
 
 
