@@ -1,0 +1,5 @@
+HashMap stroes data in key - value pairs(Key unique, values can be duplicate) . internally it uses an array of linkedlist where each element is called as a bucket.HashMap initial capacity is 16, it will create 16(0-15) buckets.
+
+when we put key, it finds the key hashcode() to convert key in number. then it calculate the index of the number to decide where to store the value in array. if two keys give the same index(we say it is collision) , if collision occur it check check using equal() method if it is yes.eqauls() we add it in exisiting LL , if NO .equald() we add to LL as next node
+
+if no collision occurs, simple add the LL as first node, hashmap automatically doubles it size when the load factor reacher at  75% to make map faster for storing and searching
