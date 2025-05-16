@@ -1,0 +1,7 @@
+Atomicity – All steps in a transaction are done completely or not at all.
+
+Consistency – Data remains valid before and after the transaction.
+
+Isolation – Transactions do not interfere with each other.
+
+Durability – Once a transaction is done, the changes are permanent.
