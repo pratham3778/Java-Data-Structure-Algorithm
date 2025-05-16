@@ -1,0 +1,12 @@
+PRIMARY KEY :
+- Unqiely indentifies eacj row in a table
+- Must have unique 
+- NULL are not allowed 
+- only one primary key per table
+
+
+FOREIGN KEY
+- Links a primary key of another table
+- can have duplicates
+- NULL are allowed
+- can be many 
