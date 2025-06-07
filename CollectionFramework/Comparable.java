@@ -1,5 +1,5 @@
 package CollectionFramework;
-// Comparable is a default natural sorting order
+// Comparable is a default natural sorting order 
 // String class and all wrapper class already implements comparable interface
 // present in java.lang package
 // contains one method - compareTo(T);
