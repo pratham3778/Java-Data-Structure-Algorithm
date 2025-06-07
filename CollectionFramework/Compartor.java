@@ -3,7 +3,7 @@ package CollectionFramework;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-// Comparator interface is present in java.util package
+// Comparator interface is present in java.util package 
 // we can use comparator interface to define our own customized order
 // compare(Obj1, Obj2);
 // return -ve if Obj1 has come before Obj2
