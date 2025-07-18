@@ -3,7 +3,7 @@ package JavaInterviewCheatSheet.ProbemsonNumber;
 public class Prime {
     static boolean isPrime(int num) {
         if (num <= 1) {
-            return false;
+            return false; 
         }
         if (num == 2) {
             return true;
