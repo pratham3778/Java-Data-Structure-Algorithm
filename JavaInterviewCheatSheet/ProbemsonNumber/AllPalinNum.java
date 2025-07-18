@@ -1,7 +1,7 @@
 package JavaInterviewCheatSheet.ProbemsonNumber;
 
 public class AllPalinNum {
-    static boolean palin(int n) {
+    static boolean palin(int n) { 
         int rev = 0;
         int temp = n;
         while (temp > 0) {
